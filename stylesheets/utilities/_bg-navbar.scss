@@ -1,0 +1,9 @@
+.bg-navbar {
+  background-color: #f6ebd1;
+}
+
+@include media-breakpoint-up(lg) { 
+  .bg-navbar{
+    background-color:white;
+  }
+}

@@ -1,0 +1,19 @@
+.button-product {
+  &:hover {
+    background-color: $primary;
+    color: $dark;
+  }
+}
+
+.button-petFace {
+  &:hover {
+    background-color: $primary;
+    border-bottom: 2px solid $dark;
+  }
+}
+
+.button-more {
+  &:hover {
+    color: $primary;
+  }
+}

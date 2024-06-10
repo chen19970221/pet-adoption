@@ -1,0 +1,41 @@
+.img-product {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  &:hover {
+    transform: scale(1.3);
+  }
+}
+
+.form-size {
+  padding: 0 32px;
+}
+
+.service-bg-cover {
+  width: 100%;
+  height: 215px;
+  background-image: url('./picture/banner_service-sm.png');
+  background-size: cover;
+  background-position:  center;
+  background-repeat: no-repeat;
+}
+
+
+@include media-breakpoint-up(sm) {
+  .service-bg-cover {
+    background-image: url('./picture/banner.png');
+  }
+}
+
+
+
+@include media-breakpoint-up(lg) {
+  .img-product {
+    &:hover {
+      transform: scale(1);
+    }
+  }
+
+}

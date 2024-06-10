@@ -1,0 +1,18 @@
+.banner-border{
+  border-top: 3px solid $primary;
+}
+
+.banner-border-adoption {
+  border-top: 2px solid $primary;
+}
+
+
+
+@include media-breakpoint-up(lg) {
+  .banner-border{
+    border-top: 0px;
+  }
+  .banner-border-adoption {
+    border-top: 0px;
+  }
+}

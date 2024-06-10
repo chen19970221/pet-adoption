@@ -1,0 +1,22 @@
+.join-size {
+  width:160px;
+}
+
+.step-size {
+  width:100px;
+}
+
+.adoption-size {
+  width:150px;
+}
+
+
+
+@include media-breakpoint-up(lg) {
+  .join-size {
+    width:200px;
+  }
+  .adoption-size{
+    width: 250px;
+  }  
+}
