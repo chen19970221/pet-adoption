@@ -12158,6 +12158,7 @@ textarea.form-control-lg {
 
 .adoption-size {
   width: 150px;
+  margin-bottom: 32px;
 }
 
 @media (min-width: 992px) {
