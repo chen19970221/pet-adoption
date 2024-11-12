@@ -1,34 +1,26 @@
 # Pet Adoption
 
-![Pet Adoption](https://i.imgur.com/eABxcZe.jpeg)
+![Pet Adoption](https://i.imgur.com/a0OCgdK.jpeg)
 
 ## Description
 
-此專案為 [Order-Management](https://chen19970221.github.io/Order-Management/) 的 vue 版本
+使用 BootStrap 5
 
 ## Features
 
-- 側邊欄開合
-- 串接資料庫
-- 依照訂單付款狀態分類查看
-- 搜尋訂單編號
-- 編輯訂單資料
-- 刪除訂單
-- 限制訂單顯示數量及換頁
+- 響應式排版：不同螢幕大小下，元素會自動調整位置和大小。
+- Bootstrap 組件應用：展示各種 Bootstrap 組件的使用，包括按鈕、卡片、表單、導航列等。
+- 網格系統：使用 Bootstrap 的網格系統來進行頁面排版。
 
 ## Screenshots
 
-![page](https://imgur.com/7KTSYlv.jpeg)
+![近期作品](https://i.imgur.com/KtTo9ls.jpeg)
 
-> 概覽
+> 近期作品 - 手機版
 
-![edit order](https://imgur.com/fANtsBR.jpeg)
+![近期作品](https://i.imgur.com/c3cPuFo.jpeg)
 
-> 修改訂單
-
-![delete order](https://imgur.com/JA8YctU.jpeg)
-
-> 刪除訂單
+> 近期作品 - 電腦版
 
 ## Recommended IDE Setup
 
@@ -58,16 +50,13 @@ npm run build
 
 ## Folder Structure
 
-- public
-  - icons
-- assets
-  - 靜態資源放置處
-- components
-  - 元件放置處
+- helpers
+- 客製化樣式
+- picture
+- 圖片
+- utilities
+- 共用
 
 ## Project Technologies
 
-- Node.js v22.6.0
-- Vue.js v3.5.12
-- Vite v5.4.10
 - BootStrap v5.3.3
